@@ -73,6 +73,10 @@
 	color: #258e74;
 }
 
+.checksbox{
+	color: #000000;
+}
+
 .form-style-5{
 	font-size: 12px;
 }
@@ -209,6 +213,10 @@ a#button-1:hover img {
 
 #button-3:hover a {
   color: #2D3142;
+}
+
+.textsmall {
+	font-size: 15px;
 }
 
 
