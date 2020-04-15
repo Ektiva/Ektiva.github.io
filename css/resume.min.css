@@ -55,7 +55,12 @@
 	color: white;
 }
 
-
+.firstline{
+  height: 5px;
+  color: #258e74;
+  background-color: #258e74;
+  border: none;
+}
 
 .myname {
     font-weight: 1500;
