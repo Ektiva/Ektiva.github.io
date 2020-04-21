@@ -38,10 +38,10 @@
  .navbar-collapse .navbar-nav .nav-item{display:block}#sideNav 
  
  .navbar-collapse .navbar-nav .nav-item .nav-link{display:block}}section.resume-section
- {padding-top:5rem!important;padding-bottom:5rem!important;max-width:75rem}section.resume-section .resume-item .resume-date
+ {padding-top:1rem;padding-bottom:1rem;max-width:75rem}section.resume-section .resume-item .resume-date
  {min-width:none}@media (min-width:768px)
- {section.resume-section{min-height:100vh}section.resume-section .resume-item .resume-date{min-width:18rem}}@media (min-width:992px)
- {section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}
+ {section.resume-section section.resume-section .resume-item .resume-date{min-width:18rem}}@media (min-width:992px)
+ {section.resume-section{padding-top:1rem;padding-bottom:1rem}}
  
  .bg-primary{background-color:#258e74!important}
  
@@ -56,7 +56,13 @@
 }
 
 .firstline{
-  height: 5px;
+  height: 45px;
+  color: #258e74;
+  background-color: #258e74;
+  border: none;
+}
+.secondtline{
+  height: 10px;
   color: #258e74;
   background-color: #258e74;
   border: none;
@@ -108,7 +114,7 @@
   height: 40px;
   width: 300px;
   border: 2px solid #ebfaf6;
-  margin: 20px 20px 20px 20px;
+  margin: 0px 20px 0px 20px;
   color: #ebfaf6;
   text-transform: uppercase;
   text-decoration: none;
@@ -223,6 +229,23 @@ a#button-1:hover img {
 .textsmall {
 	font-size: 15px;
 }
+
+
+.column1{
+	padding-left: 180px;
+	padding-right: 5px;
+	border-right-color: red;
+}
+
+.column2{
+	padding-left: 25px;
+	border-left-color: red;
+}
+
+.row1{
+	padding-top: 0px;!important
+}
+
 
 
 
